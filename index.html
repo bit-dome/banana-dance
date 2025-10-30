@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio-reactive visual with Three.js</title>
+  <link rel="stylesheet" href="/banana_dance.ce1d6491.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <!-- Small uploader section (top-left) -->
+  <div id="uploader" aria-label="Audio track uploader">
+    <div id="track-drop" class="drop-area" tabindex="0">
+      <strong>Drop audio tracks</strong>
+     
+    </div>
+    <ul id="track-list" aria-live="polite"></ul>
+  </div>
+
+
+  <button id="audio-btn">
+    <svg id="audio-btn-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100">
+      <path fill="#fff" d="M79.646 43.955c4.627 2.702 4.627 9.388 0 12.09L33.779 82.824c-4.666 2.724-10.529-.642-10.529-6.045V23.22c0-5.403 5.863-8.77 10.53-6.045l45.866 26.779Z"></path>
+    </svg>
+
+    <span id="audio-btn-label">
+      Load music
+    </span>
+
+    <span id="audio-btn-loader"></span>
+  </button>
+
+
+
+
+
+
+
+
+
+  <div id="visual-uploader" aria-label="Visual media uploader">
+    <div id="media-drop" class="drop-area" tabindex="0">
+      <strong>Drop visual files</strong>
+      <span class="hint">PNG (alpha) · MP4 (alpha)</span>
+      <div id="media-drop-summary" class="drop-summary" aria-live="polite"></div>
+      <button id="media-submit" type="button" disabled="">Submit</button>
+    </div>
+    <ul id="media-list" aria-live="polite"></ul>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script type="module" src="/banana_dance.31b563d9.js"></script>
+
+
+
+
+
+
+
+
+</body></html>
